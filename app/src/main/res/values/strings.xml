@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KSEB Bill Calculator</string>
+
+    <!-- Navigation -->
+    <string name="nav_bill_calc">Bill Calc</string>
+    <string name="nav_appliance">Appliance</string>
+    <string name="nav_reverse">Reverse</string>
+    <string name="nav_compare">Compare</string>
+    <string name="settings">Settings</string>
+
+    <!-- Form 1 -->
+    <string name="units_to_bill_title">Bill Calculator</string>
+    <string name="units_consumed">Units Consumed</string>
+    <string name="calculate_bill">Calculate Bill</string>
+    <string name="slab_breakdown">Slab Breakdown</string>
+    <string name="bill_summary">Bill Summary</string>
+    <string name="energy_charge">Energy Charge</string>
+    <string name="fixed_charge">Fixed Charge</string>
+    <string name="electricity_duty">Electricity Duty</string>
+    <string name="fuel_surcharge">Fuel Surcharge</string>
+    <string name="meter_rent">Meter Rent</string>
+    <string name="gst_on_meter_rent">GST on Meter Rent</string>
+    <string name="total_amount">Total Amount</string>
+    <string name="export_pdf">Export PDF</string>
+
+    <!-- Phase & Cycle -->
+    <string name="single_phase">Single Phase</string>
+    <string name="three_phase">Three Phase</string>
+    <string name="monthly">Monthly</string>
+    <string name="bimonthly">Bimonthly</string>
+
+    <!-- Billing Type -->
+    <string name="telescopic">Telescopic</string>
+    <string name="non_telescopic">Non-Telescopic</string>
+    <string name="all_units_flat">All %1$d units @ ₹%2$s/unit</string>
+
+    <!-- Form 2 -->
+    <string name="appliance_title">Appliance Calculator</string>
+    <string name="appliance_name">Appliance</string>
+    <string name="wattage">Wattage (W)</string>
+    <string name="quantity">Quantity</string>
+    <string name="hours_per_day">Hours/Day</string>
+    <string name="days_per_month">Days/Month</string>
+    <string name="add_appliance">Add Appliance</string>
+    <string name="your_appliances">Your Appliances</string>
+    <string name="total_units_month">Total: %1$d units/month</string>
+    <string name="kwh_per_month">%1$s kWh/month</string>
+    <string name="compare_phases">Compare Phases</string>
+    <string name="max_appliances">Maximum 50 appliances</string>
+    <string name="add_at_least_one">Add at least one appliance</string>
+
+    <!-- Form 3 -->
+    <string name="reverse_title">Reverse Calculator</string>
+    <string name="bill_amount">Bill Amount (₹)</string>
+    <string name="calculate_units">Calculate Units</string>
+    <string name="estimated_units">Estimated Units: %1$d</string>
+    <string name="billing_type">Billing Type: %1$s</string>
+    <string name="verification">Verification</string>
+    <string name="verification_match">%1$d units → ₹%2$s (Matches ✓)</string>
+    <string name="verification_diff">%1$d units → ₹%2$s (Difference: ₹%3$s)</string>
+    <string name="no_exact_match">No exact unit count produces this bill amount.</string>
+    <string name="nearest_options">Nearest options:</string>
+    <string name="view_breakdown">View Breakdown</string>
+    <string name="view_in_calculator">View in Calculator</string>
+
+    <!-- Form 4 -->
+    <string name="phase_compare_title">Phase Comparison</string>
+    <string name="compare">Compare</string>
+    <string name="difference">Difference</string>
+    <string name="recommendation">Recommendation</string>
+    <string name="single_phase_saves">Single Phase saves ₹%1$s</string>
+    <string name="three_phase_saves">Three Phase saves ₹%1$s</string>
+    <string name="no_difference">Both phases cost the same</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Tariff Settings</string>
+    <string name="default_rates_info">Default rates: KSEB Domestic LT-1A, effective 05.12.2024</string>
+    <string name="reset_to_defaults">Reset to Defaults</string>
+    <string name="reset_confirm_title">Reset Tariff Rates?</string>
+    <string name="reset_confirm_message">This will restore all rates to the KSEB default values (effective 05.12.2024). Your custom rates will be lost.</string>
+    <string name="reset">Reset</string>
+    <string name="cancel">Cancel</string>
+    <string name="custom_rates_active">Custom rates active</string>
+    <string name="telescopic_slabs">Telescopic Slabs (0–250 units)</string>
+    <string name="non_telescopic_slabs">Non-Telescopic Slabs (251+ units)</string>
+    <string name="fixed_charges">Fixed Charges</string>
+    <string name="additional_charges">Additional Charges</string>
+    <string name="slab_rate">Slab %1$d Rate (₹/unit)</string>
+    <string name="slab_range">%1$d–%2$d units</string>
+    <string name="above_units">%1$d+ units</string>
+    <string name="electricity_duty_percent">Electricity Duty (%%)</string>
+    <string name="fuel_surcharge_per_unit">Fuel Surcharge (₹/unit)</string>
+    <string name="meter_rent_single">Meter Rent - Single Phase (₹)</string>
+    <string name="meter_rent_three">Meter Rent - Three Phase (₹)</string>
+    <string name="gst_percent">GST on Meter Rent (%%)</string>
+
+    <!-- Validation -->
+    <string name="error_invalid_units">Enter a valid number (0–10000)</string>
+    <string name="warning_high_usage">Unusually high for domestic use</string>
+    <string name="error_invalid_amount">Enter a valid bill amount</string>
+    <string name="error_amount_below_min">Amount below minimum bill (₹%1$s)</string>
+    <string name="error_invalid_wattage">Enter valid wattage (1–50000)</string>
+    <string name="error_invalid_quantity">Enter valid quantity (1–100)</string>
+    <string name="error_invalid_hours">Hours must be between 0 and 24</string>
+    <string name="error_invalid_days">Days must be between 1 and 30</string>
+
+    <!-- Info tooltips -->
+    <string name="info_telescopic">Telescopic billing applies when monthly consumption is 250 units or less. Each slab is charged independently at its own rate — you pay the lower rate for the first units and progressively higher rates only for units in higher slabs.</string>
+    <string name="info_non_telescopic">Non-telescopic billing applies when monthly consumption exceeds 250 units. A single flat rate is applied to ALL consumed units (not just the excess over 250). This means the bill can jump significantly at the 251-unit boundary.</string>
+    <string name="info_electricity_duty">Electricity Duty is a state government levy calculated as a percentage of the energy charge. Currently 10%% of the total energy charge.</string>
+    <string name="info_fuel_surcharge">Fuel Surcharge is an additional per-unit charge that KSEB levies to recover fuel cost variations. This rate changes periodically.</string>
+
+    <!-- Disclaimer -->
+    <string name="disclaimer">ESTIMATE ONLY — Not an official KSEB bill. Not affiliated with KSEB. Tariff rates as of 05.12.2024.</string>
+    <string name="disclaimer_custom_rates">Calculated using user-customized tariff rates.</string>
+    <string name="generated_by">Generated by KSEB Bill Calculator App</string>
+</resources>
